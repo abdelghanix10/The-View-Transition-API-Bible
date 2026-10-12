@@ -14,11 +14,11 @@ const Info = () => {
 
   useGSAP(
     () => {
-      const split = new SplitText(".info p", {
-        type: "lines",
-        mask: "lines",
-        linesClass: "line",
-      });
+    //   const split = new SplitText(".info p", {
+    //     type: "lines",
+    //     mask: "lines",
+    //     linesClass: "line",
+    //   });
 
       gsap.set(".line", { y: 400 });
 
